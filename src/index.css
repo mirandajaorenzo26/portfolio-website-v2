@@ -9,16 +9,12 @@
 }
 
 
+
 html {
   scroll-behavior: smooth;
 }
 html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  min-width: 320px;
-  min-height: 100vh;
-  color: black;
+  @apply m-0 p-0 min-w-[320px] box-border min-h-screen text-black
 }
 
 .bg {
@@ -47,7 +43,7 @@ h2 {
 }
 
 button {
-  all: unset
+  white-space: nowrap;
 }
 /*
 button:hover {
@@ -66,12 +62,17 @@ a:hover {
 
 }
 
+
+section{
+  @apply bg-white px-5 lg:px-16 overflow-hidden
+}
+
 .logo{
   @apply text-4xl font-schabo  
 }
 
 .header {
-  @apply  flex items-center justify-between p-5 z-50 fixed w-full bg-white transition-all duration-300
+  @apply  px-5 flex items-center justify-between py-5 z-50 fixed w-full bg-white transition-all duration-300 lg:px-16
 }
 
 .mobile-nav{
@@ -85,19 +86,6 @@ a:hover {
 .desktop-nav{
   @apply md:flex hidden
 }
-
-section{
-  @apply bg-white
-}
-
-.download-btn{
-  @apply font-bold bg-black text-white py-2 px-6 hover:underline
-}
-
-.download-btn-inverted{
-  @apply font-bold bg-white text-black py-2 px-6 hover:underline
-}
-
 
 
 /* Animations */

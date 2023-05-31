@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import OtherProjects from "./pages/OtherProjects";
 
 function App() {
   const location = useLocation();
@@ -19,13 +20,14 @@ function App() {
   }, [location]);
 
   return (
-    <>
+    <main>
       <div className="bg"></div>
       <Header />
       <Home />
       <About />
       <Skills />
-    </>
+      <OtherProjects />
+    </main>
   );
 }
 
