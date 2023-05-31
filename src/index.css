@@ -1,0 +1,116 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SCHABO";
+  src: url("/fonts/SCHABO-Condensed.otf");
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 100vh;
+  color: black;
+}
+
+.bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation .2s infinite;
+  opacity: .9;
+  visibility: visible;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+h1 {
+  @apply text-8xl font-schabo
+}
+
+h2 {
+  @apply text-6xl font-schabo
+}
+
+button {
+  all: unset
+}
+/*
+button:hover {
+}
+
+button:focus,
+button:focus-visible {
+} */
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  text-decoration: underline;
+
+}
+
+.logo{
+  @apply text-4xl font-schabo  
+}
+
+.header {
+  @apply  flex items-center justify-between p-5 z-50 fixed w-full bg-white transition-all duration-300
+}
+
+.mobile-nav{
+  @apply py-10 px-5 top-20 bg-black fixed w-full left-0 text-white transition-transform duration-500 md:hidden
+}
+
+.close-nav{
+  @apply -translate-y-[60vh]
+}
+
+.desktop-nav{
+  @apply md:flex hidden
+}
+
+section{
+  @apply bg-white
+}
+
+.download-btn{
+  @apply font-bold bg-black text-white py-2 px-6 hover:underline
+}
+
+.download-btn-inverted{
+  @apply font-bold bg-white text-black py-2 px-6 hover:underline
+}
+
+
+
+/* Animations */
+@keyframes bg-animation {
+  0% { transform: translate(0,0) }
+  10% { transform: translate(-5%,-5%) }
+  20% { transform: translate(-10%,5%) }
+  30% { transform: translate(5%,-10%) }
+  40% { transform: translate(-5%,15%) }
+  50% { transform: translate(-10%,5%) }
+  60% { transform: translate(15%,0) }
+  70% { transform: translate(0,10%) }
+  80% { transform: translate(-15%,0) }
+  90% { transform: translate(10%,5%) }
+  100% { transform: translate(5%,0) }
+}
