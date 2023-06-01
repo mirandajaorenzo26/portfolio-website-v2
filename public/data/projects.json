@@ -2,7 +2,7 @@
   {
     "type": "featured",
     "category": "Fun Project",
-    "image": "/src/assets/images/project-screenshots/randomizer.png",
+    "image": "./project-screenshots/randomizer.png",
     "title": "Either You Choose or I Decide",
     "desc": "The Randomizer Application is a helpful tool designed to assist users when they are feeling indecisive about something. Whether you're unsure about which option to choose or simply want the application to make a decision for you, this application has got you covered.",
     "techs": ["React + Vite", "Tailwind"],
@@ -12,7 +12,7 @@
   {
     "type": "featured",
     "category": "API-based Project",
-    "image": "/src/assets/images/project-screenshots/url-shortener.png",
+    "image": "./project-screenshots/url-shortener.png",
     "title": "Url Shortener",
     "desc": "This is a basic URL shortener application that allows users to shorten long URLs into shorter, more manageable links. This is a challenge from Frontend Mentor.",
     "techs": ["React + Vite", "Tailwind"],
@@ -22,7 +22,7 @@
   {
     "type": "featured",
     "category": "Utility Project",
-    "image": "/src/assets/images/project-screenshots/age-calculator.png",
+    "image": "./project-screenshots/age-calculator.png",
     "title": "Age Calculator App",
     "desc": "The app allows users to enter their birthday and calculates their age in years, months, and days. This application is a challenge by Frontend Mentor and my first ever React Application.",
     "techs": ["React + Vite"],
@@ -32,7 +32,7 @@
   {
     "type": "other-project",
     "category": "API-based Project",
-    "image": "/src/assets/images/project-screenshots/dictionary.png",
+    "image": "./project-screenshots/dictionary.png",
     "title": "Dictionary App",
     "desc": "This project is a dictionary app built with React, Vite, and Tailwind. It utilizes the free Dictionary API to provide word definitions and related information. Additionally, I explored the useContext hook for state management.",
     "techs": ["React + Vite", "Tailwind"],
@@ -42,7 +42,7 @@
   {
     "type": "other-project",
     "category": "Utility Project",
-    "image": "/src/assets/images/project-screenshots/todo-list.png",
+    "image": "./project-screenshots/todo-list.png",
     "title": "Todo-List App",
     "desc": "A simple todo list app that allows you to add and delete tasks. It utilizes local storage to store the list items, and provides filtering options for viewing All tasks, Active tasks, and Completed tasks.",
     "techs": ["React + Vite", "Tailwind"],
@@ -53,7 +53,7 @@
   {
     "type": "other-project",
     "category": "Utility Project",
-    "image": "/src/assets/images/project-screenshots/password-generator.png",
+    "image": "./project-screenshots/password-generator.png",
     "title": "Password Generator",
     "desc": "This is a simple password generator web application that generates random passwords with customizable criteria.",
     "techs": ["HTML", "CSS", "JavaScript"],
@@ -63,7 +63,7 @@
   {
     "type": "other-project",
     "category": "API-based Project",
-    "image": "/src/assets/images/project-screenshots/weather-app.png",
+    "image": "./project-screenshots/weather-app.png",
     "title": "Weather App",
     "desc": "A Simple and Mobile-Responsive Weather App with HTML, CSS, and JavaScript, Powered by OpenWeather's API.",
     "techs": ["HTML", "CSS", "JavaScript"],
@@ -73,7 +73,7 @@
   {
     "type": "other-project",
     "category": "Utility Project",
-    "image": "/src/assets/images/project-screenshots/basic-calculator.png",
+    "image": "./project-screenshots/basic-calculator.png",
     "title": "Basic Calculator",
     "desc": "It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
     "techs": ["HTML", "CSS", "JavaScript"],
@@ -83,7 +83,7 @@
   {
     "type": "web-design",
     "category": "web-design",
-    "image": "/src/assets/images/project-screenshots/getvaccinated-app.png",
+    "image": "./project-screenshots/getvaccinated-app.png",
     "title": "GetVacinnated App",
     "desc": "This is the design for an appointment scheduling system for COVID-19 vaccinations dedicated for our project in System Analysis and Design",
     "techs": ["Figma"],
@@ -92,7 +92,7 @@
   {
     "type": "web-design",
     "category": "web-design",
-    "image": "/src/assets/images/project-screenshots/film-sight.png",
+    "image": "./project-screenshots/film-sight.png",
     "title": "Film Sight",
     "desc": "This is the design for a movie search app for our project in Mobile App Development.",
     "techs": ["Figma"],

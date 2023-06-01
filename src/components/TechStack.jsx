@@ -8,7 +8,7 @@ function TechStack() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("/src/data/techstack.json");
+      const response = await fetch("./data/techstack.json");
       const jsonData = await response.json();
       setData(jsonData);
     } catch (error) {
