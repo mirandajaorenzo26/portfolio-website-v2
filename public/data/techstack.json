@@ -1,22 +1,22 @@
 [
   {
     "name":"HTML",
-    "url": "/src/assets/images/technologies/HTML.png"
+    "url": "./technologies/HTML.png"
   }, 
   {
     "name":"CSS",
-    "url": "/src/assets/images/technologies/CSS.png"
+    "url": "./technologies/CSS.png"
   },
   {
     "name":"JavaScript",
-    "url": "/src/assets/images/technologies/JS.png"
+    "url": "./technologies/JS.png"
   },
   {
     "name":"React",
-    "url": "/src/assets/images/technologies/React.png"
+    "url": "./technologies/React.png"
   },
   {
     "name":"Tailwind",
-    "url": "/src/assets/images/technologies/Tailwind.png"
+    "url": "./technologies/Tailwind.png"
   }
 ]
