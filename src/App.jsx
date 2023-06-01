@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import OtherProjects from "./pages/OtherProjects";
+import Projects from "./pages/Projects";
 
 function App() {
   const location = useLocation();
@@ -26,7 +26,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <OtherProjects />
+      <Projects />
     </main>
   );
 }

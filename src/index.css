@@ -35,11 +35,11 @@ html, body {
 }
 
 h1 {
-  @apply text-8xl font-schabo
+  @apply text-8xl font-schabo uppercase
 }
 
 h2 {
-  @apply text-6xl font-schabo
+  @apply text-6xl font-schabo uppercase
 }
 
 button {
@@ -59,7 +59,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-
+  font-weight: bold;
 }
 
 
@@ -86,6 +86,24 @@ section{
 .desktop-nav{
   @apply md:flex hidden
 }
+
+
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 2px;
+}
+
+/* Background color of the scrollbar track */
+::-webkit-scrollbar-track {
+  @apply bg-gray-200 
+}
+
+/* Color of the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-black 
+}
+
 
 
 /* Animations */

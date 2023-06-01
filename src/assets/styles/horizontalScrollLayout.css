@@ -11,16 +11,18 @@
 }
 
 .scroll-container {
-  position: relative;
-  overflow-x: auto;
-  display: flex; 
-  width: 100%;
-  cursor: none;
+  @apply relative w-full cursor-none overflow-x-scroll 
+}
+
+.scroll-content{
+  @apply  flex w-fit
 }
 
 
 .scroll-item {
   display: inline-block;
-  min-width: 300px;
+  min-width: max-content;
   margin-right: 10rem;
 }
+
+

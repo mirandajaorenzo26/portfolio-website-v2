@@ -18,7 +18,7 @@ function Projects() {
   };
 
   return (
-    <section className="min-w-screen overflow-x-visible ">
+    <section id="projects" className="w-full overflow-x-visible ">
       <OtherProjectsLayout projects={data} />
     </section>
   );
