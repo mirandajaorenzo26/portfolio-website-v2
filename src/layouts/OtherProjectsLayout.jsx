@@ -105,7 +105,7 @@ function OtherProjectsLayout({ projects }) {
       <div className="pt-5">
         <h2>Other Projects</h2>
         <div
-          className="scroll-container  my-10 pb-20 pt-10"
+          className="scroll-container  my-10 border-x-2 border-gray-200 pb-20 pt-10"
           onMouseDown={handleMouseDown}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
@@ -113,7 +113,7 @@ function OtherProjectsLayout({ projects }) {
           onMouseMove={handleMouseMove}
           ref={sliderRef}
         >
-          <div className="scroll-content">
+          <div className="scroll-content ">
             {projects
               .filter((project) => project.type == "other-project")
               .map((project) => (
