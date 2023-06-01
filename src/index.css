@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-  @apply text-6xl font-schabo uppercase
+  @apply text-6xl font-schabo uppercase my-5
 }
 
 button {

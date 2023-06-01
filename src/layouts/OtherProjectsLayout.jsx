@@ -101,9 +101,9 @@ function OtherProjectsLayout({ projects }) {
           </div>
         )}
       </div>
-      <div className="h-[2px] w-full bg-gray-200 px-20"></div>
+      <div className="mt-5 h-[2px] w-full bg-gray-200 px-20"></div>
       <div className="pt-5">
-        <h2 className="my-5">Other Projects</h2>
+        <h2>Other Projects</h2>
         <div
           className="scroll-container  my-10 pb-20 pt-10"
           onMouseDown={handleMouseDown}

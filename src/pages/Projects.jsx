@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import OtherProjectsLayout from "../layouts/OtherProjectsLayout";
+import FeaturedProjectsLayout from "../layouts/FeaturedProjectsLayout";
 function Projects() {
   const [data, setData] = useState([]);
 
@@ -18,9 +19,17 @@ function Projects() {
   };
 
   return (
-    <section id="projects" className="w-full overflow-x-visible ">
-      <OtherProjectsLayout projects={data} />
-    </section>
+    <>
+      <section
+        id="projects"
+        className="m-h-screen w-full overflow-x-visible bg-black py-10 text-white"
+      >
+        <FeaturedProjectsLayout projects={data} />
+      </section>
+      <section id="other-projects" className="w-full overflow-x-visible ">
+        <OtherProjectsLayout projects={data} />
+      </section>
+    </>
   );
 }
 

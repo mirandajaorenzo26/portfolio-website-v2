@@ -13,12 +13,16 @@ function Button({
   target,
 }) {
   return (
-    <Link to={to} target={target}>
+    <Link
+      to={to}
+      target={target}
+      className={`${buttonType} ${className} flex items-center justify-center `}
+    >
       <button
-        className={`${buttonType} ${className} flex items-center justify-center gap-2`}
         onClick={onClick}
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
+        className="flex items-center justify-center gap-2"
       >
         {text} {icon}
       </button>

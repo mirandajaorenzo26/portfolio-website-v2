@@ -12,6 +12,18 @@
   @apply font-bold bg-transparent text-black py-2 px-6 underline
 }
 
+.primary-btn-inverted{
+  @apply font-bold bg-white border-2 border-white text-black py-2 px-6 hover:underline
+}
+
+.secondary-btn-inverted{
+  @apply font-bold bg-transparent text-white border-2 border-white py-2 px-6 hover:underline
+}
+
+
+.tertiary-btn{
+  @apply font-bold bg-transparent text-black py-2 px-6 underline
+}
 
 
 .download-btn{

@@ -1,17 +1,22 @@
-import "../assets/styles/horizontalScrollLayout.css";
 import Button from "./shared/Button";
 
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
-function OtherProjectItem({ project, onMouseEnter, onMouseLeave }) {
+function FeaturedProjectItem({ project }) {
   return (
-    <div className="scroll-item flex flex-col justify-between">
-      <div>
-        <p className="mb-2 font-medium">{project.category}</p>
-        <p className="mb-14 font-schabo text-5xl">{project.title}</p>
-        <p className=" w-[300px] ">{project.desc}</p>
+    <div className=" flex min-w-[320px] flex-1 flex-col justify-between">
+      <div className=" mb-5">
+        <img
+          src={`${project.image}`}
+          alt="project-image"
+          className=" object-fill "
+        />
+        <div className="mt-5">
+          <p className="mb-2 font-medium">{project.category}</p>
+          <p className="mb-5 font-schabo text-5xl">{project.title}</p>
+          <p>{project.desc}</p>
+        </div>
       </div>
-
       <div>
         <div className="my-5 flex gap-5 font-bold">
           {project.techs.map((tech) => (
@@ -26,9 +31,7 @@ function OtherProjectItem({ project, onMouseEnter, onMouseLeave }) {
             to={project.repoLink}
             icon={<AiFillGithub size={20} />}
             target={"_blank"}
-            buttonType={"primary-btn"}
-            onMouseEnter={onMouseLeave}
-            onMouseLeave={onMouseEnter}
+            buttonType={"primary-btn-inverted"}
             className={"text-sm"}
           />
           <Button
@@ -36,9 +39,7 @@ function OtherProjectItem({ project, onMouseEnter, onMouseLeave }) {
             to={project.liveLink}
             icon={<FiExternalLink size={20} />}
             target={"_blank"}
-            buttonType={"secondary-btn"}
-            onMouseEnter={onMouseLeave}
-            onMouseLeave={onMouseEnter}
+            buttonType={"secondary-btn-inverted"}
             className={"text-sm"}
           />
         </div>
@@ -47,4 +48,4 @@ function OtherProjectItem({ project, onMouseEnter, onMouseLeave }) {
   );
 }
 
-export default OtherProjectItem;
+export default FeaturedProjectItem;
