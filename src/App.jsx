@@ -2,9 +2,11 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import GetInTouch from "./pages/GetInTouch";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import Projects from "./pages/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   const location = useLocation();
@@ -27,6 +29,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <GetInTouch />
+      <Footer />
     </main>
   );
 }

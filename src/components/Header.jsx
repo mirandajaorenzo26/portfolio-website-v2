@@ -7,6 +7,8 @@ import Button from "./shared/Button";
 import { AiOutlineMenu } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 
+import downloadFile from "../utils/downloadFile";
+
 function Header() {
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
@@ -45,7 +47,10 @@ function Header() {
   }, [visible]);
 
   return (
-    <div className="header" style={{ translate: visible ? "0" : "0 -100px" }}>
+    <header
+      className="header"
+      style={{ translate: visible ? "0" : "0 -100px" }}
+    >
       <Logo />
       {/* mobile Nav */}
       <nav ref={mobileNavRef} className="mobile-nav close-nav text-center">
@@ -54,6 +59,7 @@ function Header() {
           text="Download CV"
           buttonType="download-btn-inverted"
           className="mt-5"
+          onClick={() => downloadFile()}
         />
       </nav>
 
@@ -69,7 +75,7 @@ function Header() {
 
       {/* Desktop Nav */}
       <nav className="desktop-nav">
-        <ul className="flex gap-5 text-center uppercase">
+        <ul className="flex gap-5 text-center uppercase lg:gap-10 ">
           <li>
             <NavLink to="#home">Home</NavLink>
           </li>
@@ -83,7 +89,7 @@ function Header() {
             <NavLink to="#projects">Projects</NavLink>
           </li>
           <li>
-            <NavLink to="#contact">Get In Touch</NavLink>
+            <NavLink to="#contacts">Get In Touch</NavLink>
           </li>
         </ul>
       </nav>
@@ -91,8 +97,9 @@ function Header() {
         text="Download CV"
         buttonType="download-btn"
         className="hidden md:block"
+        onClick={() => downloadFile()}
       />
-    </div>
+    </header>
   );
 }
 
