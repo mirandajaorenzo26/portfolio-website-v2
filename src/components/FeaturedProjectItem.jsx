@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 function FeaturedProjectItem({ project }) {
   return (
     <div className=" flex min-w-[320px] flex-1 flex-col justify-between">
-      <div className=" mb-5">
+      <div className="mb-3">
         <img
           src={`${project.image}`}
           alt="project-image"
@@ -13,7 +13,7 @@ function FeaturedProjectItem({ project }) {
         />
         <div className="mt-5">
           <p className="mb-2 font-medium">{project.category}</p>
-          <p className="mb-5 font-schabo text-5xl">{project.title}</p>
+          <p className="mb-10 font-schabo text-5xl">{project.title}</p>
           <p>{project.desc}</p>
         </div>
       </div>

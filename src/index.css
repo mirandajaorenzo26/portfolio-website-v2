@@ -14,7 +14,7 @@ html {
   scroll-behavior: smooth;
 }
 html, body {
-  @apply m-0 p-0 min-w-[320px] box-border min-h-screen text-black
+  @apply m-0 p-0 min-w-[320px] box-border min-h-screen text-black font-instrument
 }
 
 .bg {
@@ -35,11 +35,11 @@ html, body {
 }
 
 h1 {
-  @apply text-8xl font-schabo uppercase
+  @apply text-8xl font-schabo uppercase tracking-wide
 }
 
 h2 {
-  @apply text-6xl font-schabo uppercase my-5
+  @apply text-6xl font-schabo uppercase my-5 tracking-wide
 }
 
 button {
@@ -75,6 +75,11 @@ section{
   @apply  px-5 flex items-center justify-between py-5 z-50 fixed w-full bg-white transition-all duration-300 lg:px-16
 }
 
+.footer {
+  @apply  px-5 lg:px-16 py-16
+}
+
+
 .mobile-nav{
   @apply py-10 px-5 top-20 bg-black fixed w-full left-0 text-white transition-transform duration-500 md:hidden
 }
@@ -84,7 +89,7 @@ section{
 }
 
 .desktop-nav{
-  @apply md:flex hidden
+  @apply md:flex hidden 
 }
 
 
@@ -96,7 +101,7 @@ section{
 
 /* Background color of the scrollbar track */
 ::-webkit-scrollbar-track {
-  @apply bg-gray-200 
+  @apply bg-transparent 
 }
 
 /* Color of the scrollbar handle */

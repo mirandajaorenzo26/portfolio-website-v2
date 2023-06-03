@@ -1,25 +1,30 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import MyPicture from "../assets/images/mirandajaorenzo.png";
 import TechStack from "../components/TechStack";
 import Button from "../components/shared/Button";
+
+import { AiFillLinkedin, AiFillGithub, AiTwotoneMail } from "react-icons/ai";
 function Home() {
   return (
-    <section id="home" className="grid min-h-screen items-center">
-      <div className="flex h-full flex-col justify-end gap-2 md:flex-row md:items-center">
-        <div className="mt-[80px] grid h-fit flex-1 items-center justify-center gap-2 text-center md:gap-5 md:text-left">
+    <section
+      id="home"
+      className="flex min-h-screen items-center justify-center gap-5 md:flex-col"
+    >
+      <div className="flex h-full flex-col justify-end gap-2 lg:flex-row lg:items-center lg:gap-20 ">
+        <div className="mt-[80px] grid h-fit flex-1 items-center justify-center gap-2 text-center lg:justify-start lg:gap-5 lg:text-left">
           <div className="space-y-1">
             <p className="text-2xl">
               Hello! I&apos;m{" "}
-              <span className="font-schabo text-3xl">Jao Renzo Miranda,</span>
+              <span className="font-schabo text-3xl ">Jao Renzo Miranda,</span>
             </p>
-            <p className="font-schabo text-8xl uppercase">
+            <p className="font-schabo text-8xl uppercase ">
               A Front-end Developer.
             </p>
           </div>
 
           <TechStack />
 
-          <p className=" text-gray-500">
+          <p className=" my-5 max-w-2xl text-gray-500">
             A graduating student who&apos;s passionate about all things web
             development and programming. I&apos;ve spent countless hours
             studying and perfecting my skills in front-end development and web
@@ -34,6 +39,7 @@ function Home() {
                 text={"Contact Me"}
                 buttonType={"primary-btn"}
                 className={"w-full lg:w-fit"}
+                to={"#contacts"}
               />
             </NavLink>
             <NavLink className={"flex-1"}>
@@ -41,6 +47,7 @@ function Home() {
                 text={"Know more"}
                 buttonType={"secondary-btn"}
                 className={"w-full lg:w-fit"}
+                to={"#about"}
               />
             </NavLink>
             <NavLink className={"flex-1"}>
@@ -48,11 +55,12 @@ function Home() {
                 text={"View Projects"}
                 buttonType={"tertiary-btn"}
                 className={"w-full lg:w-fit"}
+                to={"#projects"}
               />
             </NavLink>
           </div>
         </div>
-        <div className="relative m-auto w-[80%] md:w-[30vw]">
+        <div className="relative m-auto w-[80%] lg:w-[30vw]">
           <img
             src={MyPicture}
             alt="Jao Renzo Miranda"

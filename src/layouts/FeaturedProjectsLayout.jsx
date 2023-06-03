@@ -4,6 +4,7 @@ function FeaturedProjects({ projects }) {
   return (
     <>
       <div className="mt-5 h-[2px] w-full bg-gray-200 px-20"></div>
+
       <div className="pt-5">
         <h2>Featured Projects</h2>
 

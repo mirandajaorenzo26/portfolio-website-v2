@@ -26,7 +26,7 @@ function Projects() {
       >
         <FeaturedProjectsLayout projects={data} />
       </section>
-      <section id="other-projects" className="w-full overflow-x-visible ">
+      <section id="other-projects" className="w-full overflow-x-visible py-10">
         <OtherProjectsLayout projects={data} />
       </section>
     </>

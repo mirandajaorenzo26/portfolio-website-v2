@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         black: "#282725",
+        "very-dark-black": "#1C1918",
         white: "#F0F0F0",
       },
       fontFamily: {

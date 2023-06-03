@@ -89,7 +89,7 @@ function OtherProjectsLayout({ projects }) {
   return (
     <>
       <div
-        className="cursor scale-0 bg-black font-bold text-white transition-transform  duration-300"
+        className="cursor scale-0 bg-black font-bold text-white transition-transform  duration-300  "
         ref={cursorRef}
       >
         {isDown === false ? (

@@ -15,7 +15,7 @@ function MobileNavList() {
         <NavLink to="#projects">Projects</NavLink>
       </li>
       <li className="my-2">
-        <NavLink to="#contact">Get In Touch</NavLink>
+        <NavLink to="#contacts">Get In Touch</NavLink>
       </li>
     </ul>
   );
