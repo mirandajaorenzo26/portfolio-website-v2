@@ -3,10 +3,11 @@ import Button from "./shared/Button";
 
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
-function OtherProjectItem({ project, onMouseEnter, onMouseLeave }) {
+function OtherProjectItem({ project, onMouseEnter, onMouseLeave, index }) {
   return (
     <div className="scroll-item flex flex-col justify-between">
       <div>
+        <p className="font-schabo text-xl">#{index + 1}</p>
         <p className="mb-2 font-medium">{project.category}</p>
         <p className="mb-14 font-schabo text-5xl">{project.title}</p>
         <p className=" w-[300px] ">{project.desc}</p>

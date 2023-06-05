@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import OtherProjectsLayout from "../layouts/OtherProjectsLayout";
 import FeaturedProjectsLayout from "../layouts/FeaturedProjectsLayout";
+import WebDesignProjectsLayout from "../layouts/WebDesignProjectsLayout";
 function Projects() {
   const [data, setData] = useState([]);
 
@@ -28,6 +29,12 @@ function Projects() {
       </section>
       <section id="other-projects" className="w-full overflow-x-visible py-10">
         <OtherProjectsLayout projects={data} />
+      </section>
+      <section
+        id="web-design-projects"
+        className="w-full overflow-x-visible py-10"
+      >
+        <WebDesignProjectsLayout projects={data} />
       </section>
     </>
   );

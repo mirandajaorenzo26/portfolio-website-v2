@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-  @apply text-6xl font-schabo uppercase my-5 tracking-wide
+  @apply text-6xl font-schabo uppercase mb-5 tracking-wide
 }
 
 button {
@@ -85,7 +85,7 @@ section{
 }
 
 .close-nav{
-  @apply -translate-y-[60vh]
+  @apply -translate-y-[150%]
 }
 
 .desktop-nav{

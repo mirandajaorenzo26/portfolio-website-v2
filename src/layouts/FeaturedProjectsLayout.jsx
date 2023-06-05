@@ -1,14 +1,13 @@
+import { Carousel } from "antd";
 import FeaturedProjectItem from "../components/FeaturedProjectItem";
 
 function FeaturedProjects({ projects }) {
   return (
     <>
-      <div className="mt-5 h-[2px] w-full bg-gray-200 px-20"></div>
-
-      <div className="pt-5">
+      <div>
+        <div className="my-5 h-[2px] w-full bg-gray-200 px-20"></div>
         <h2>Featured Projects</h2>
-
-        <div className="my-10 flex flex-wrap gap-20">
+        <Carousel autoplay effect="fade" className="py-10">
           {projects
             .filter((project) => project.type == "featured")
             .map((project) => (
@@ -17,7 +16,7 @@ function FeaturedProjects({ projects }) {
                 project={project}
               />
             ))}
-        </div>
+        </Carousel>
       </div>
     </>
   );
