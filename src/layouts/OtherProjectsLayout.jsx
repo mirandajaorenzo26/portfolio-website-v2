@@ -101,9 +101,11 @@ function OtherProjectsLayout({ projects }) {
           </div>
         )}
       </div>
-      <div className="mt-5 h-[2px] w-full bg-gray-200 px-20"></div>
-      <div className="pt-5">
+      <div className="my-5 h-[2px] w-full bg-gray-200 px-20"></div>
+
+      <div>
         <h2>Other Projects</h2>
+
         <div
           className="scroll-container  my-10 border-x-2 border-gray-200 pb-20 pt-10"
           onMouseDown={handleMouseDown}
@@ -116,9 +118,10 @@ function OtherProjectsLayout({ projects }) {
           <div className="scroll-content ">
             {projects
               .filter((project) => project.type == "other-project")
-              .map((project) => (
+              .map((project, index) => (
                 <OtherProjectItem
                   key={crypto.randomUUID()}
+                  index={index}
                   project={project}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}

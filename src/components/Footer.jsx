@@ -13,7 +13,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex flex-col gap-5 md:flex-row md:gap-20">
-        <div className="grid text-center text-sm  md:text-left">
+        <div className="grid text-center text-sm  md:text-right">
           <p className="text-lg text-gray-400 ">Quick Links</p>
           <ul>
             <li className="my-2">

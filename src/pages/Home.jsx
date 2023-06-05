@@ -3,7 +3,6 @@ import MyPicture from "../assets/images/mirandajaorenzo.png";
 import TechStack from "../components/TechStack";
 import Button from "../components/shared/Button";
 
-import { AiFillLinkedin, AiFillGithub, AiTwotoneMail } from "react-icons/ai";
 function Home() {
   return (
     <section
@@ -13,9 +12,11 @@ function Home() {
       <div className="flex h-full flex-col justify-end gap-2 lg:flex-row lg:items-center lg:gap-20 ">
         <div className="mt-[80px] grid h-fit flex-1 items-center justify-center gap-2 text-center lg:justify-start lg:gap-5 lg:text-left">
           <div className="space-y-1">
-            <p className="text-2xl">
+            <p className="text-2xl text-gray-500">
               Hello! I&apos;m{" "}
-              <span className="font-schabo text-3xl ">Jao Renzo Miranda,</span>
+              <span className=" font-bold tracking-wide text-black">
+                Jao Renzo Miranda,
+              </span>
             </p>
             <p className="font-schabo text-8xl uppercase ">
               A Front-end Developer.
