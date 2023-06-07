@@ -1,6 +1,6 @@
 
 .primary-btn{
-  @apply font-bold bg-black border-2 border-black text-white py-2 px-6 hover:underline
+  @apply font-bold bg-black border-2 border-black text-white py-2 px-6 hover:underline 
 }
 
 

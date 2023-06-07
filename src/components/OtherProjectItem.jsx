@@ -22,26 +22,42 @@ function OtherProjectItem({ project, onMouseEnter, onMouseLeave, index }) {
           ))}
         </div>
         <div className="flex gap-5">
-          <Button
-            text={"View Code"}
-            to={project.repoLink}
-            icon={<AiFillGithub size={20} />}
-            target={"_blank"}
-            buttonType={"primary-btn"}
-            onMouseEnter={onMouseLeave}
-            onMouseLeave={onMouseEnter}
-            className={"text-sm"}
-          />
-          <Button
-            text={"Live Site"}
-            to={project.liveLink}
-            icon={<FiExternalLink size={20} />}
-            target={"_blank"}
-            buttonType={"secondary-btn"}
-            onMouseEnter={onMouseLeave}
-            onMouseLeave={onMouseEnter}
-            className={"text-sm"}
-          />
+          {project.repoLink && (
+            <Button
+              text={"View Code"}
+              to={project.repoLink}
+              icon={<AiFillGithub size={20} />}
+              target={"_blank"}
+              buttonType={"primary-btn"}
+              onMouseEnter={onMouseLeave}
+              onMouseLeave={onMouseEnter}
+              className={"text-sm"}
+            />
+          )}
+          {project.liveLink && (
+            <Button
+              text={"Live Site"}
+              to={project.liveLink}
+              icon={<FiExternalLink size={20} />}
+              target={"_blank"}
+              buttonType={"secondary-btn"}
+              onMouseEnter={onMouseLeave}
+              onMouseLeave={onMouseEnter}
+              className={"text-sm"}
+            />
+          )}
+          {project.ytLink && (
+            <Button
+              text={"Watch Video"}
+              to={project.ytLink}
+              icon={<FiExternalLink size={20} />}
+              target={"_blank"}
+              buttonType={"secondary-btn"}
+              onMouseEnter={onMouseLeave}
+              onMouseLeave={onMouseEnter}
+              className={"text-sm"}
+            />
+          )}
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import MyPicture from "../assets/images/mirandajaorenzo.png";
 import TechStack from "../components/TechStack";
 import Button from "../components/shared/Button";
@@ -9,29 +9,26 @@ function Home() {
       id="home"
       className="flex min-h-screen items-center justify-center gap-5 md:flex-col"
     >
-      <div className="flex h-full flex-col justify-end gap-2 lg:flex-row lg:items-center lg:gap-20 ">
-        <div className="mt-[80px] grid h-fit flex-1 items-center justify-center gap-2 text-center lg:justify-start lg:gap-5 lg:text-left">
+      <div className="flex h-full w-full flex-col justify-end gap-2 lg:flex-row lg:items-center lg:gap-20">
+        <div className="mt-[80px] grid h-fit flex-1 items-center justify-center gap-2 text-center lg:mt-0 lg:justify-start lg:gap-5 lg:text-left">
           <div className="space-y-1">
-            <p className="text-2xl text-gray-500">
+            <p className="uppercase text-gray-700 md:text-3xl lg:text-4xl ">
               Hello! I&apos;m{" "}
-              <span className=" font-bold tracking-wide text-black">
-                Jao Renzo Miranda,
-              </span>
+              <span className=" font-bold text-black">Jao Renzo Miranda,</span>
             </p>
-            <p className="font-schabo text-8xl uppercase ">
+            <p className=" font-schabo text-6xl uppercase md:text-8xl lg:text-9xl">
               A Front-end Developer.
             </p>
           </div>
 
-          <TechStack />
+          {/* <TechStack /> */}
 
-          <p className=" my-5 max-w-2xl text-gray-500">
-            A graduating student who&apos;s passionate about all things web
-            development and programming. I&apos;ve spent countless hours
-            studying and perfecting my skills in front-end development and web
-            design. I&apos;m excited to take my skills to the next level as I
-            start on my career in the field, and I can&apos;t wait to see what
-            the future holds!
+          <p className="max-w-4xl pb-5 text-gray-500 lg:my-0">
+            A graduating student who&apos;s passionate about web development and
+            programming. I&apos;ve spent countless hours studying and perfecting
+            my skills in programming, web development and web design. I&apos;m
+            excited to take my skills to the next level as I start on my career
+            in the field, and I can&apos;t wait to see what the future holds!
           </p>
 
           <div className=" flex flex-wrap justify-between gap-5 lg:w-fit lg:justify-start">
@@ -61,13 +58,13 @@ function Home() {
             </NavLink>
           </div>
         </div>
-        <div className="relative m-auto w-[80%] lg:w-[30vw]">
+        <div className="relative m-auto w-[70%] max-w-xs lg:w-[30vw] lg:max-w-full">
           <img
             src={MyPicture}
             alt="Jao Renzo Miranda"
-            className="relative z-10 w-full"
+            className="relative z-10 w-full "
           />
-          <div className="bg-dark-neutral-white dark:bg-neutral-black absolute bottom-0 z-0 h-[70%] w-full shadow-inner"></div>
+          <div className="bg-dark-neutral-white dark:bg-neutral-black  absolute bottom-0 z-0 h-[70%] w-full shadow-inner"></div>
         </div>
       </div>
     </section>

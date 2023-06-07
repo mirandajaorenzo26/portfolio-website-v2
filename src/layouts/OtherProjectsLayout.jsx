@@ -13,7 +13,6 @@ function OtherProjectsLayout({ projects }) {
   const sliderRef = useRef();
   const sliderElement = sliderRef.current;
   const cursorRef = useRef();
-  const cursorElement = cursorRef.current;
 
   const handleMouseDown = (e) => {
     if (isShown) {
@@ -44,11 +43,11 @@ function OtherProjectsLayout({ projects }) {
   const handleMouseMove = (e) => {
     e.preventDefault();
     if (isShown) {
-      const height = cursorElement.offsetHeight;
-      const width = cursorElement.offsetWidth;
+      const height = cursorRef.current.offsetHeight;
+      const width = cursorRef.current.offsetWidth;
       setTimeout(() => {
-        cursorElement.style.left = `${e.pageX - width / 2}px`;
-        cursorElement.style.top = `${e.pageY - height / 2}px`;
+        cursorRef.current.style.left = `${e.pageX - width / 2}px`;
+        cursorRef.current.style.top = `${e.pageY - height / 2}px`;
       }, 200);
     }
 
@@ -61,13 +60,13 @@ function OtherProjectsLayout({ projects }) {
   useEffect(() => {
     if (isShown) {
       setTimeout(() => {
-        cursorElement.classList.remove("scale-0");
-        cursorElement.classList.add("scale-100");
+        cursorRef.current.classList.remove("scale-0");
+        cursorRef.current.classList.add("scale-100");
       }, 200);
     } else {
       setTimeout(() => {
-        cursorElement.classList.remove("scale-100");
-        cursorElement.classList.add("scale-0");
+        cursorRef.current.classList.remove("scale-100");
+        cursorRef.current.classList.add("scale-0");
       }, 200);
     }
   }, [isShown]);
@@ -75,13 +74,13 @@ function OtherProjectsLayout({ projects }) {
   useEffect(() => {
     if (isDown && isShown) {
       setTimeout(() => {
-        cursorElement.classList.remove("scale-100");
-        cursorElement.classList.add("scale-50");
+        cursorRef.current.classList.remove("scale-100");
+        cursorRef.current.classList.add("scale-50");
       });
     } else {
       setTimeout(() => {
-        cursorElement.classList.remove("scale-50");
-        cursorElement.classList.add("scale-100");
+        cursorRef.current.classList.remove("scale-50");
+        cursorRef.current.classList.add("scale-100");
       }, 200);
     }
   }, [isDown]);
@@ -105,7 +104,6 @@ function OtherProjectsLayout({ projects }) {
 
       <div>
         <h2>Other Projects</h2>
-
         <div
           className="scroll-container  my-10 border-x-2 border-gray-200 pb-20 pt-10"
           onMouseDown={handleMouseDown}

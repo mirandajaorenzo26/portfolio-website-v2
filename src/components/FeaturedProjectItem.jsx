@@ -13,13 +13,13 @@ function FeaturedProjectItem({ project }) {
 
       <div>
         <div className="mt-5">
-          <p className="mb-2 font-medium">{project.category}</p>
+          <p className="mb-2 text-xl font-medium">{project.category}</p>
           <p className="mb-10 font-schabo text-7xl">{project.title}</p>
-          <p className="text-xl">{project.desc}</p>
+          <p className="text-xl text-gray-300">{project.desc}</p>
         </div>
 
         <div>
-          <div className="my-5 flex gap-5 font-bold">
+          <div className="my-5 flex gap-5 text-xl font-bold">
             {project.techs.map((tech) => (
               <div key={tech}>
                 <p>{tech}</p>
@@ -33,7 +33,7 @@ function FeaturedProjectItem({ project }) {
               icon={<AiFillGithub size={20} />}
               target={"_blank"}
               buttonType={"primary-btn-inverted"}
-              className={"text-sm"}
+              className={"text-sm hover:text-black"}
             />
             <Button
               text={"Live Site"}
@@ -41,7 +41,7 @@ function FeaturedProjectItem({ project }) {
               icon={<FiExternalLink size={20} />}
               target={"_blank"}
               buttonType={"secondary-btn-inverted"}
-              className={"text-sm"}
+              className={"text-sm hover:text-white"}
             />
           </div>
         </div>

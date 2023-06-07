@@ -31,6 +31,15 @@
   },
   {
     "type": "other-project",
+    "category": "Console-based Project",
+    "title": "File Organizer",
+    "desc": "This project is a simple console-based project that help you organize files within a specific folder of your choice.",
+    "techs": ["Python"],
+    "repoLink": "https://github.com/mirandajaorenzo26/file-organizer",
+    "ytLink":"https://youtu.be/JhZzr2gFVg4"
+  },
+  {
+    "type": "other-project",
     "category": "API-based Project",
     "image": "./project-screenshots/dictionary.png",
     "title": "Dictionary App",
@@ -85,7 +94,7 @@
     "category": "web-design",
     "image": "./project-screenshots/getvaccinated-app.png",
     "title": "GetVacinnated App",
-    "desc": "This is the design for an appointment scheduling system for COVID-19 vaccinations dedicated for our project in System Analysis and Design",
+    "desc": "This is the design for an appointment scheduling system for COVID-19 vaccinations dedicated for our project in System Analysis and Design.",
     "techs": ["Figma"],
     "link": "https://www.figma.com/file/deIP5O2NT0WJJaM5mf0FWk/GetVaccinated-App?"
   },
