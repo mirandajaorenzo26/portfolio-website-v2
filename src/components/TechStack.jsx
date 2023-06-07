@@ -18,8 +18,8 @@ function TechStack() {
 
   return (
     <div className="flex items-center justify-center gap-2 font-bold lg:justify-start">
-      <p className="whitespace-nowrap">Tech Stack |</p>
-      <div className="flex gap-2 md:gap-4">
+      <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
+        <p className="whitespace-nowrap">Web Tech Stack |</p>
         {data.map((tech) => (
           <img
             key={tech.name}

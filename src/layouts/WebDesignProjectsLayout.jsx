@@ -3,7 +3,7 @@ import WebDesignProjectItem from "../components/WebDesignProjectItem";
 function WebDesignProjectsLayout({ projects }) {
   return (
     <>
-      <h2>Web/App Design Project</h2>
+      <h2>Web/App Design Projects</h2>
       <div className="grid gap-5">
         {projects
           .filter((project) => project.type == "web-design")

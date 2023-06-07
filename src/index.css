@@ -8,13 +8,14 @@
   src: url("/fonts/SCHABO-Condensed.otf");
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
+
 html, body {
-  @apply m-0 p-0 min-w-[320px] box-border min-h-screen text-black font-instrument
+  @apply m-0 p-0 min-w-[320px] box-border min-h-screen text-black font-inter
 }
 
 .bg {

@@ -9,7 +9,7 @@ export default {
         white: "#F0F0F0",
       },
       fontFamily: {
-        instrument: ["Instrument Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
         schabo: ["SCHABO", "cursive"],
       },
     },

@@ -22,16 +22,18 @@ function App() {
   }, [location]);
 
   return (
-    <main>
+    <>
       <div className="bg"></div>
       <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <GetInTouch />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <GetInTouch />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
 
