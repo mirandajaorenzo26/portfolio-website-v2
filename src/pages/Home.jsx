@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import MyPicture from "../assets/images/mirandajaorenzo.png";
-import TechStack from "../components/TechStack";
 import Button from "../components/shared/Button";
 
 function Home() {
@@ -20,8 +19,6 @@ function Home() {
               A Front-end Developer.
             </p>
           </div>
-
-          {/* <TechStack /> */}
 
           <p className="max-w-4xl pb-5 text-gray-500 lg:my-0">
             A graduating student who&apos;s passionate about web development and
