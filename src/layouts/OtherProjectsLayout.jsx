@@ -48,7 +48,7 @@ function OtherProjectsLayout({ projects }) {
       setTimeout(() => {
         cursorRef.current.style.left = `${e.pageX - width / 2}px`;
         cursorRef.current.style.top = `${e.pageY - height / 2}px`;
-      }, 200);
+      }, 50);
     }
 
     if (!isDown) return;
@@ -88,7 +88,7 @@ function OtherProjectsLayout({ projects }) {
   return (
     <>
       <div
-        className="cursor scale-0 bg-black font-bold text-white transition-transform  duration-300  "
+        className="cursor absolute hidden scale-0 items-center justify-center bg-black font-bold text-white transition-transform  duration-300  md:grid"
         ref={cursorRef}
       >
         {isDown === false ? (

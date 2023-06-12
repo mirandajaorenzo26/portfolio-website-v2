@@ -16,7 +16,7 @@ function Home() {
               Hello! I&apos;m{" "}
               <span className=" font-bold text-black">Jao Renzo Miranda,</span>
             </p>
-            <p className=" font-schabo text-6xl uppercase md:text-8xl lg:text-9xl">
+            <p className=" font-schabo text-6xl uppercase md:text-7xl xl:text-8xl 2xl:text-9xl">
               A Front-end Developer.
             </p>
           </div>

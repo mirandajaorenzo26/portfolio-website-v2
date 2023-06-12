@@ -1,0 +1,23 @@
+[
+  {
+    "skillName": "Programming",
+    "desc": "I absolutely love programming! It's a fascinating and fulfilling journey that constantly challenges and excites me.",
+    "technologies":[
+      "JavaScript", "Python", "TypeScript", "Java", "C#", "C++", "C" 
+    ]
+  },
+  {
+    "skillName": "UI/UX Design",
+    "desc": "UI/UX Design holds a special corner in my heart, enabling me to channel my creativity and translate it into captivating designs that prioritize the user's needs and desires.",
+    "technologies":[
+      "Figma", "Photoshop", "Illustrator"
+    ]
+  },
+  {
+    "skillName": "Web Development",
+    "desc": "Web development is where I combine my love for programming and UI/UX Design, creating a creative playground where code and captivating design intertwine to produce functional, visually stunning web applications.",
+    "technologies":[
+      "HTML", "CSS", "JavaScript/TypeScript", "Tailwind/Bootstrap", "React", "Angular", "SASS"
+    ]
+  }
+]

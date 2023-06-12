@@ -1,35 +1,35 @@
 
 .primary-btn{
-  @apply font-bold bg-black border-2 border-black text-white py-2 px-6 hover:underline 
+  @apply  font-bold bg-black border-2 border-black text-white py-2 px-6 hover:underline 
 }
 
 
 .secondary-btn{
-  @apply font-bold bg-transparent text-black border-2 border-black py-2 px-6 hover:underline
+  @apply  font-bold bg-transparent text-black border-2 border-black py-2 px-6 hover:underline
 }
 
 .tertiary-btn{
-  @apply font-bold bg-transparent text-black py-2 px-6 underline
+  @apply  font-bold bg-transparent text-black py-2 px-6 underline
 }
 
 .primary-btn-inverted{
-  @apply font-bold bg-white border-2 border-white text-black py-2 px-6 hover:underline
+  @apply  font-bold bg-white border-2 border-white text-black py-2 px-6 hover:underline
 }
 
 .secondary-btn-inverted{
-  @apply font-bold bg-transparent text-white border-2 border-white py-2 px-6 hover:underline
+  @apply  font-bold bg-transparent text-white border-2 border-white py-2 px-6 hover:underline
 }
 
 
 .tertiary-btn{
-  @apply font-bold bg-transparent text-black py-2 px-6 underline
+  @apply  font-bold bg-transparent text-black py-2 px-6 underline
 }
 
 
 .download-btn{
-  @apply font-bold bg-black text-white py-2 px-6 hover:underline
+  @apply  font-bold bg-black text-white py-2 px-6 hover:underline
 }
 
 .download-btn-inverted{
-  @apply font-bold bg-white text-black py-2 px-6 hover:underline
+  @apply  font-bold bg-white text-black py-2 px-6 hover:underline
 }
