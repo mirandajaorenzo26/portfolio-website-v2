@@ -8,8 +8,9 @@ function Footer() {
       <div className="mb-5 text-center md:text-left">
         <Logo />
         <div className="my-2 text-sm">
-          <p className="text-gray-400 ">Copyright © 2023 Jao Renzo Miranda.</p>
-          <p className="text-gray-400 ">All rights reserved.</p>
+          <p className="text-gray-400 ">
+            Copyright © 2023 Jao Renzo Miranda. All rights reserved
+          </p>
         </div>
       </div>
       <div className="flex flex-col gap-5 md:flex-row md:gap-20">

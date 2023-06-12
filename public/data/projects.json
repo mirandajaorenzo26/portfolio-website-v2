@@ -43,7 +43,7 @@
     "category": "API-based Project",
     "image": "./project-screenshots/dictionary.png",
     "title": "Dictionary App",
-    "desc": "This project is a dictionary app built with React, Vite, and Tailwind. It utilizes the free Dictionary API to provide word definitions and related information. Additionally, I explored the useContext hook for state management.",
+    "desc": "This project is a dictionary app built with React, Vite, and Tailwind. It utilizes the free Dictionary API to provide word definitions and related information.",
     "techs": ["React + Vite", "Tailwind"],
     "repoLink": "https://github.com/mirandajaorenzo26/dictionary-app/",
     "liveLink": "https://mirandajaorenzo-dictionary.vercel.app/"

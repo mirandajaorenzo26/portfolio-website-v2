@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +9,6 @@
   src: url("/fonts/SCHABO-Condensed.otf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -40,8 +40,13 @@ h1 {
 }
 
 h2 {
-  @apply text-6xl font-schabo uppercase mb-5 tracking-wide
+  @apply text-7xl font-schabo uppercase mb-5 tracking-wide
 }
+
+h3 {
+  @apply text-4xl font-schabo mb-5 tracking-wide
+}
+
 
 button {
   white-space: nowrap;
@@ -82,7 +87,7 @@ section{
 
 
 .mobile-nav{
-  @apply py-10 px-5 top-20 bg-black fixed w-full left-0 text-white transition-transform duration-500 md:hidden
+  @apply py-10 px-5 top-20 bg-black fixed w-full left-0 text-white transition-transform duration-500 lg:hidden
 }
 
 .close-nav{
@@ -90,7 +95,7 @@ section{
 }
 
 .desktop-nav{
-  @apply md:flex hidden 
+  @apply lg:flex hidden 
 }
 
 

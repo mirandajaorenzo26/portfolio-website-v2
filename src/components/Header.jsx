@@ -68,7 +68,7 @@ function Header() {
           if (isOpen) handleClose();
           else handleOpen();
         }}
-        className="md:hidden"
+        className="lg:hidden"
       >
         <AiOutlineMenu size={32} />
       </button>
@@ -96,7 +96,7 @@ function Header() {
       <Button
         text="Download CV"
         buttonType="download-btn"
-        className="hidden md:block"
+        className="hidden lg:block"
         onClick={() => downloadFile()}
       />
     </header>

@@ -1,8 +1,4 @@
 .cursor {
-  position: absolute;
-  display: grid;
-  align-items: center;
-  justify-content: center;
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -11,7 +7,7 @@
 }
 
 .scroll-container {
-  @apply relative w-full cursor-none overflow-x-scroll 
+  @apply relative w-full cursor-move md:cursor-none overflow-x-scroll 
 }
 
 .scroll-content{
