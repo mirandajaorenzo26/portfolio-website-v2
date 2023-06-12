@@ -1,10 +1,7 @@
 import GradPic from "../assets/images/gradpic.png";
 function About() {
   return (
-    <section
-      id="about"
-      className="grid min-h-screen items-center bg-black py-20 text-white"
-    >
+    <section id="about" className="bg-black py-20 text-white">
       <div className="grid items-center gap-10 md:grid-cols-4">
         <img
           className="hidden h-full w-full object-cover md:block"

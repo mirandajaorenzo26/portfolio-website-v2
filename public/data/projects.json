@@ -1,13 +1,13 @@
 [
   {
     "type": "featured",
-    "category": "Fun Project",
-    "image": "./project-screenshots/randomizer.png",
-    "title": "Either You Choose or I Decide",
-    "desc": "The Randomizer Application is a helpful tool designed to assist users when they are feeling indecisive about something. Whether you're unsure about which option to choose or simply want the application to make a decision for you, this application has got you covered.",
+    "category": "Static Web Page Project",
+    "image": "./project-screenshots/portfolio-website.png",
+    "title": "Personal Website V1",
+    "desc": "This project is the first version of my personal website that showcases my skills and abilities",
     "techs": ["React + Vite", "Tailwind"],
-    "repoLink": "https://github.com/mirandajaorenzo26/randomizer/",
-    "liveLink": "https://mirandajaorenzo-randomizer.vercel.app/"
+    "repoLink": "https://github.com/mirandajaorenzo26/portfolio-website",
+    "liveLink": "https://mirandajaorenzo-v1.vercel.app/"
   },
   {
     "type": "featured",
@@ -37,6 +37,16 @@
     "techs": ["Python"],
     "repoLink": "https://github.com/mirandajaorenzo26/file-organizer",
     "ytLink":"https://youtu.be/JhZzr2gFVg4"
+  },
+  {
+    "type": "other-project",
+    "category": "Fun Project",
+    "image": "./project-screenshots/randomizer.png",
+    "title": "Either You Choose or I Decide",
+    "desc": "The Randomizer Application is a helpful tool designed to assist users when they are feeling indecisive about something. Whether you're unsure about which option to choose or simply want the application to make a decision for you, this application has got you covered.",
+    "techs": ["React + Vite", "Tailwind"],
+    "repoLink": "https://github.com/mirandajaorenzo26/randomizer/",
+    "liveLink": "https://mirandajaorenzo-randomizer.vercel.app/"
   },
   {
     "type": "other-project",
