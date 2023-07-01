@@ -28,7 +28,9 @@ function About() {
               Bachelor of Science in Information Technology
             </span>
             , earned a latin honor award of{" "}
-            <span className="whitespace-nowrap font-bold">Magna Cum Laude</span>{" "}
+            <span className="whitespace-nowrap font-bold">
+              Magna Cum Laude.
+            </span>{" "}
             All the effort and dedication I put into my studies truly paid off,
             making this achievement even more rewarding.
           </p>
