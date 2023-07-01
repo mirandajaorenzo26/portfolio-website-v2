@@ -21,7 +21,7 @@ function Home() {
           </div>
 
           <p className="max-w-4xl pb-5 text-gray-500 lg:my-0">
-            A graduating student who&apos;s passionate about web development and
+            An individual who&apos;s passionate about web development and
             programming. I&apos;ve spent countless hours studying and perfecting
             my skills in programming, web development and web design. I&apos;m
             excited to take my skills to the next level as I start on my career

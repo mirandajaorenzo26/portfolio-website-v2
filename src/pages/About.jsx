@@ -23,13 +23,13 @@ function About() {
           </p>
 
           <p>
-            On June 20, 2023, I&apos;m about to graduate with a degree in&nbsp;
+            I graduated with a degree in&nbsp;
             <span className="font-bold">
               Bachelor of Science in Information Technology
             </span>
-            , earning a latin honor of{" "}
+            , earned a latin honor award of{" "}
             <span className="whitespace-nowrap font-bold">Magna Cum Laude</span>
-            .
+            &nbsp;on June 20, 2023.
           </p>
           <p>
             I can&apos;t wait to kickstart my career in the industry! Though I
