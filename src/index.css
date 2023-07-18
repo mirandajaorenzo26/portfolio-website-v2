@@ -70,7 +70,7 @@ a:hover {
 
 
 section{
-  @apply bg-white px-5 lg:px-16 overflow-hidden
+  @apply bg-white px-5 lg:px-16 overflow-hidden xl:px-32
 }
 
 .logo{
@@ -78,11 +78,11 @@ section{
 }
 
 .header {
-  @apply  px-5 flex items-center justify-between py-5 z-50 fixed w-full bg-white transition-all duration-300 lg:px-16
+  @apply  px-5 flex items-center justify-between py-5 z-50 fixed w-full bg-white transition-all duration-300 lg:px-16 xl:px-32
 }
 
 .footer {
-  @apply  px-5 lg:px-16 py-16
+  @apply  px-5 lg:px-16 py-16 xl:px-32
 }
 
 
